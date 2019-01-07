@@ -75,13 +75,14 @@ For cluster provisioning, prepared images should be used.
      - uses Ambari 2.2.0.0
 
 For more information about building image, refer to
-:doc:`building-guest-images`.
+:sahara-doc:`Sahara documentation <user/building-guest-images.html>`.
 
 HDP plugin requires an image to be tagged in sahara Image Registry with two
 tags: 'ambari' and '<plugin version>' (e.g. '2.5').
 
 The image requires a username. For more information, refer to the
-:doc:`registering-image` section.
+:sahara-doc:`registering image <user/registering-image.html>` section
+of the Sahara documentation.
 
 To speed up provisioning, the HDP packages can be pre-installed on the image
 used. The packages' versions depend on the HDP version required.
