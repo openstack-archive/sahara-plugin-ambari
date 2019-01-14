@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# sahara-ambari-plugin documentation build configuration file.
+# sahara-plugin-ambari documentation build configuration file.
 #
 # -- General configuration -----------------------------------------------------
 
@@ -180,7 +180,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'sahara-ambari-plugin.tex', u'sahara-ambari-plugin Documentation',
+  ('index', 'sahara-plugin-ambari.tex', u'sahara-plugin-ambari Documentation',
    u'Sahara team', 'manual'),
 ]
 
@@ -210,7 +210,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'sahara-ambari-plugin', u'sahara-ambari-plugin Documentation',
+    ('index', 'sahara-plugin-ambari', u'sahara-plugin-ambari Documentation',
      [u'Sahara team'], 1)
 ]
 
@@ -224,8 +224,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'sahara-ambari-plugin', u'sahara-ambari-plugin Documentation',
-   u'Sahara team', 'sahara-ambari-plugin', 'One line description of project.',
+  ('index', 'sahara-plugin-ambari', u'sahara-plugin-ambari Documentation',
+   u'Sahara team', 'sahara-plugin-ambari', 'One line description of project.',
    'Miscellaneous'),
 ]
 
