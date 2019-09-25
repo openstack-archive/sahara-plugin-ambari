@@ -1,0 +1,215 @@
+# Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: sahara-plugin-ambari VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2019-09-20 17:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-09-25 06:06+0000\n"
+"Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "%(problem)s: %(description)s"
+msgstr "%(problem)s: %(description)s"
+
+# auto translated by TM merge from project: sahara, version: master, DocId: sahara/locale/sahara
+msgid "0 or 1"
+msgstr "0 oder 1"
+
+# auto translated by TM merge from project: sahara, version: master, DocId: sahara/locale/sahara
+msgid "1 or more"
+msgstr "1 oder mehr"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "3 or more. Odd number"
+msgstr "3 oder mehr. Ungerade Zahl"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Add Hadoop Swift jar to instances"
+msgstr "Füge Hadoop Swift-Jar zu Instanzen hinzu"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Add new hosts"
+msgstr "Fügen Sie neue Hosts hinzu"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "Ambari Monitor has responded that cluster has %(red)d critical alert(s)"
+msgstr ""
+"Ambari Monitor hat geantwortet, dass der Cluster %(red)d kritische Alarme hat"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid ""
+"Ambari Monitor has responded that cluster has %(red)d critical and "
+"%(yellow)d warning alert(s)"
+msgstr ""
+"Ambari Monitor hat geantwortet, dass der Cluster %(red)d kritisch und "
+"%(yellow)d Warnmeldung(en) hat"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "Ambari Monitor has responded that cluster has %d warning alert(s)"
+msgstr ""
+"Ambari Monitor hat geantwortet, dass der Cluster %d-Warnmeldung(en) enthält"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Ambari Monitor is healthy"
+msgstr "Ambari Monitor ist gesund"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Ambari plugin of {base} or higher required to run {type} jobs"
+msgstr ""
+"Ambari-Plugin von {base} oder höher, das zum Ausführen von {type} Jobs "
+"erforderlich ist"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "Ambari request in %s state"
+msgstr "Ambari Anfrage in %s Zustand"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "At least 3 JournalNodes are required for HA"
+msgstr "Mindestens 3 JournalNodes sind für HA erforderlich"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "At least 3 ZooKeepers are required for HA"
+msgstr "Für HA sind mindestens 3 ZooKeeper erforderlich"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Can't get response from Ambari Monitor"
+msgstr "Antwort von Ambari Monitor nicht möglich"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Cleanup config groups"
+msgstr "Konfigurationsgruppen bereinigen"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Configure rack awareness"
+msgstr "Rack-Erkennung konfigurieren"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Create Ambari blueprint"
+msgstr "Erstellen Sie Ambari Blueprint"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Decommission NodeManagers and DataNodes"
+msgstr "NodeManagers und DataNodes außer Betrieb setzen"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Enable HBase RegionServer HA"
+msgstr "Aktivieren Sie HBase RegionServer HA"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Enable NameNode HA"
+msgstr "Aktivieren Sie NameNode HA"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Enable ResourceManager HA"
+msgstr "Aktivieren Sie ResourceManager HA"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Generate config groups"
+msgstr "Generieren Sie Konfigurationsgruppen"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Install services on hosts"
+msgstr "Installiere Dienste auf Hosts"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "No alerts found"
+msgstr "Keine Alarme gefunden"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Odd number"
+msgstr "Ungerade Zahl"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Odd number of JournalNodes are required for HA"
+msgstr "Eine ungerade Anzahl von JournalNodes ist für HA erforderlich"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Odd number of ZooKeepers are required for HA"
+msgstr "Für HA ist eine ungerade Anzahl von ZooKeepern erforderlich"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Prepare Hive"
+msgstr "Bereite Hive vor"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Regenerate keytabs for Kerberos"
+msgstr "Generieren Sie Keytabs für Kerberos neu"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Remove hosts"
+msgstr "Entferne Hosts"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Restart HDFS and MAPREDUCE2 services"
+msgstr "Starte die HDFS- und MAPREDUCE2-Dienste neu"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Restart NameNodes and ResourceManagers"
+msgstr "Starte NameNodes und ResourceManagers neu"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Restart of ambari-agent is needed for host {}, reason: {}"
+msgstr "Neustart von ambari-agent wird für Host {} benötigt, Grund: {}"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Set up Ambari agents"
+msgstr "Richten Sie Ambari-Agenten ein"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Set up Ambari management console"
+msgstr "Richten Sie die Ambari-Verwaltungskonsole ein"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Set up HDP repositories"
+msgstr "Richten Sie HDP-Repositorys ein"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "Some Ambari request(s) not in COMPLETED state: %(description)s."
+msgstr ""
+"Einige Ambari-Anfragen sind nicht im Status COMPLETED: %(description)s."
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Start cluster"
+msgstr "Cluster starten"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Start services on hosts"
+msgstr "Starte  Dienste auf Hosts"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid ""
+"The Ambari Sahara plugin provides the ability to launch clusters with "
+"Hortonworks Data Platform (HDP) on OpenStack using Apache Ambari"
+msgstr ""
+"Das Ambari Sahara-Plugin bietet die Möglichkeit, Cluster mit Hortonworks "
+"Data Platform (HDP) auf OpenStack mit Apache Ambari zu starten"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Update default Ambari password"
+msgstr "Aktualisieren Sie das Standard-Ambari-Passwort"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Wait Ambari accessible"
+msgstr "Warte auf Ambari zugänglich"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+msgid "Wait registration of hosts"
+msgstr "Warten Sie die Registrierung der Hosts"
+
+# auto translated by TM merge from project: sahara, version: stable-queens, DocId: sahara/locale/sahara
+#, python-format
+msgid "request %(id)d: %(name)s - in status %(status)s"
+msgstr "Anfrage %(id)d: %(name)s - in Status %(status)s"
