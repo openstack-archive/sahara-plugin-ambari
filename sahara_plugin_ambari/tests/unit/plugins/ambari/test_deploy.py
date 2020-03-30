@@ -26,6 +26,7 @@ def mock_event_wrapper(*args, **kwargs):
         return decorated_function
     return decorator
 
+
 mock.patch('sahara.plugins.utils.event_wrapper', mock_event_wrapper).start()
 
 from sahara.plugins import utils as pu
