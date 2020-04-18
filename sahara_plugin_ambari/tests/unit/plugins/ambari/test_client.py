@@ -14,7 +14,8 @@
 # limitations under the License.
 
 
-import mock
+from unittest import mock
+
 from oslo_serialization import jsonutils
 
 from sahara.plugins import exceptions as p_exc

@@ -14,8 +14,8 @@
 # limitations under the License.
 
 import copy
+from unittest import mock
 
-import mock
 
 from sahara_plugin_ambari.plugins.ambari import ha_helper as ha
 from sahara_plugin_ambari.tests.unit import base

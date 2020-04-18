@@ -14,7 +14,8 @@
 # limitations under the License.
 
 from functools import wraps
-import mock
+from unittest import mock
+
 from oslo_serialization import jsonutils
 
 

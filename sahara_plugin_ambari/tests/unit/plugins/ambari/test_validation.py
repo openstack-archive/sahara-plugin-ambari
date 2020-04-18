@@ -14,7 +14,7 @@
 # limitations under the License.
 
 
-import mock
+from unittest import mock
 
 from sahara.plugins import exceptions
 from sahara_plugin_ambari.plugins.ambari import common as p_common

@@ -15,8 +15,8 @@
 
 
 import collections
+from unittest import mock
 
-import mock
 import six
 
 from sahara_plugin_ambari.plugins.ambari import configs
