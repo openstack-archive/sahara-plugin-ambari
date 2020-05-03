@@ -1,0 +1,166 @@
+# Andi Chandler <andi@gowling.com>, 2020. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: sahara-plugin-ambari VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.launchpad.net/openstack-i18n/\n"
+"POT-Creation-Date: 2020-04-26 20:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-05-02 09:33+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>\n"
+"Language-Team: English (United Kingdom)\n"
+"Language: en_GB\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#, python-format
+msgid "%(problem)s: %(description)s"
+msgstr "%(problem)s: %(description)s"
+
+msgid "0 or 1"
+msgstr "0 or 1"
+
+msgid "1 or more"
+msgstr "1 or more"
+
+msgid "3 or more. Odd number"
+msgstr "3 or more. Odd number"
+
+msgid "Add Hadoop Swift jar to instances"
+msgstr "Add Hadoop Swift jar to instances"
+
+msgid "Add new hosts"
+msgstr "Add new hosts"
+
+#, python-format
+msgid "Ambari Monitor has responded that cluster has %(red)d critical alert(s)"
+msgstr ""
+"Ambari Monitor has responded that cluster has %(red)d critical alert(s)"
+
+#, python-format
+msgid ""
+"Ambari Monitor has responded that cluster has %(red)d critical and "
+"%(yellow)d warning alert(s)"
+msgstr ""
+"Ambari Monitor has responded that cluster has %(red)d critical and "
+"%(yellow)d warning alert(s)"
+
+#, python-format
+msgid "Ambari Monitor has responded that cluster has %d warning alert(s)"
+msgstr "Ambari Monitor has responded that cluster has %d warning alert(s)"
+
+msgid "Ambari Monitor is healthy"
+msgstr "Ambari Monitor is healthy"
+
+msgid "Ambari plugin of {base} or higher required to run {type} jobs"
+msgstr "Ambari plugin of {base} or higher required to run {type} jobs"
+
+#, python-format
+msgid "Ambari request in %s state"
+msgstr "Ambari request in %s state"
+
+msgid "At least 3 JournalNodes are required for HA"
+msgstr "At least 3 JournalNodes are required for HA"
+
+msgid "At least 3 ZooKeepers are required for HA"
+msgstr "At least 3 ZooKeepers are required for HA"
+
+msgid "Can't get response from Ambari Monitor"
+msgstr "Can't get response from Ambari Monitor"
+
+msgid "Cleanup config groups"
+msgstr "Cleanup config groups"
+
+msgid "Configure rack awareness"
+msgstr "Configure rack awareness"
+
+msgid "Create Ambari blueprint"
+msgstr "Create Ambari blueprint"
+
+msgid "Decommission NodeManagers and DataNodes"
+msgstr "Decommission NodeManagers and DataNodes"
+
+msgid "Enable HBase RegionServer HA"
+msgstr "Enable HBase RegionServer HA"
+
+msgid "Enable NameNode HA"
+msgstr "Enable NameNode HA"
+
+msgid "Enable ResourceManager HA"
+msgstr "Enable ResourceManager HA"
+
+msgid "Generate config groups"
+msgstr "Generate config groups"
+
+msgid "Install services on hosts"
+msgstr "Install services on hosts"
+
+msgid "No alerts found"
+msgstr "No alerts found"
+
+msgid "Odd number"
+msgstr "Odd number"
+
+msgid "Odd number of JournalNodes are required for HA"
+msgstr "Odd number of JournalNodes are required for HA"
+
+msgid "Odd number of ZooKeepers are required for HA"
+msgstr "Odd number of ZooKeepers are required for HA"
+
+msgid "Prepare Hive"
+msgstr "Prepare Hive"
+
+msgid "Regenerate keytabs for Kerberos"
+msgstr "Regenerate keytabs for Kerberos"
+
+msgid "Remove hosts"
+msgstr "Remove hosts"
+
+msgid "Restart HDFS and MAPREDUCE2 services"
+msgstr "Restart HDFS and MAPREDUCE2 services"
+
+msgid "Restart NameNodes and ResourceManagers"
+msgstr "Restart NameNodes and ResourceManagers"
+
+msgid "Restart of ambari-agent is needed for host {}, reason: {}"
+msgstr "Restart of ambari-agent is needed for host {}, reason: {}"
+
+msgid "Set up Ambari agents"
+msgstr "Set up Ambari agents"
+
+msgid "Set up Ambari management console"
+msgstr "Set up Ambari management console"
+
+msgid "Set up HDP repositories"
+msgstr "Set up HDP repositories"
+
+#, python-format
+msgid "Some Ambari request(s) not in COMPLETED state: %(description)s."
+msgstr "Some Ambari request(s) not in COMPLETED state: %(description)s."
+
+msgid "Start cluster"
+msgstr "Start cluster"
+
+msgid "Start services on hosts"
+msgstr "Start services on hosts"
+
+msgid ""
+"The Ambari Sahara plugin provides the ability to launch clusters with "
+"Hortonworks Data Platform (HDP) on OpenStack using Apache Ambari"
+msgstr ""
+"The Ambari Sahara plugin provides the ability to launch clusters with "
+"Hortonworks Data Platform (HDP) on OpenStack using Apache Ambari"
+
+msgid "Update default Ambari password"
+msgstr "Update default Ambari password"
+
+msgid "Wait Ambari accessible"
+msgstr "Wait Ambari accessible"
+
+msgid "Wait registration of hosts"
+msgstr "Wait registration of hosts"
+
+#, python-format
+msgid "request %(id)d: %(name)s - in status %(status)s"
+msgstr "request %(id)d: %(name)s - in status %(status)s"
