@@ -15,11 +15,11 @@ extensions = [
 ]
 
 # openstackdocstheme options
-repository_name = 'openstack/sahara-plugin-ambari'
-bug_project = '1101'
-bug_tag = 'doc'
+openstackdocs_repo_name = 'openstack/sahara-plugin-ambari'
+openstackdocs_pdf_link = True
+openstackdocs_use_storyboard = True
 
-openstack_projects = [
+openstackdocs_projects = [
     'sahara'
 ]
 
@@ -67,7 +67,7 @@ exclude_patterns = []
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
 
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
