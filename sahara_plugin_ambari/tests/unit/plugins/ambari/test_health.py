@@ -15,7 +15,6 @@
 
 from unittest import mock
 
-import six
 import testtools
 
 from sahara.plugins import health_check_base
@@ -39,7 +38,7 @@ class TestAmbariHealthCheck(base.SaharaTestCase):
                 self.assertEqual(
                     "Cluster health is %s. Reason: "
                     "Ambari Monitor has responded that cluster "
-                    "has %s alert(s)" % (col, count), six.text_type(e))
+                    "has %s alert(s)" % (col, count), str(e))
                 raise
 
     @mock.patch('sahara_plugin_ambari.plugins.ambari.client.AmbariClient.'
@@ -119,5 +118,5 @@ class TestAmbariHealthCheck(base.SaharaTestCase):
                 self.assertEqual(
                     "Cluster health is RED. Reason: "
                     "Can't get response from Ambari Monitor: OOUCH!",
-                    six.text_type(e))
+                    str(e))
                 raise

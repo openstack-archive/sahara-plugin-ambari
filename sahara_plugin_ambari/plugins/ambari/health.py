@@ -17,7 +17,6 @@ import collections
 import functools
 
 from oslo_log import log as logging
-import six
 
 from sahara.plugins import health_check_base
 from sahara.plugins import utils as plugin_utils
@@ -68,7 +67,7 @@ class AlertsProvider(object):
         except Exception as e:
             prefix = _("Can't get response from Ambari Monitor")
             msg = _("%(problem)s: %(description)s") % {
-                'problem': prefix, 'description': six.text_type(e)}
+                'problem': prefix, 'description': str(e)}
             # don't put in exception to logs, it will be done by log.exception
             LOG.exception(prefix)
             self._exception_store = msg

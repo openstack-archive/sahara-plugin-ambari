@@ -171,7 +171,7 @@ class AmbariClientTestCase(base.SaharaTestCase):
                           resp, True)
 
         resp.status_code = 200
-        resp.text = u'{"json": "example"}'
+        resp.text = '{"json": "example"}'
         resp.raise_for_status = mock.Mock()
 
         res = ambari_client.AmbariClient.check_response(resp)
@@ -186,15 +186,15 @@ class AmbariClientTestCase(base.SaharaTestCase):
         self.assertRaises(p_exc.HadoopProvisionError,
                           ambari_client.AmbariClient.req_id, resp)
 
-        resp.text = u'{"text" : "example"}'
+        resp.text = '{"text" : "example"}'
         self.assertRaises(p_exc.HadoopProvisionError,
                           ambari_client.AmbariClient.req_id, resp)
 
-        resp.text = u'{"Requests": {"example" : "text"}}'
+        resp.text = '{"Requests": {"example" : "text"}}'
         self.assertRaises(p_exc.HadoopProvisionError,
                           ambari_client.AmbariClient.req_id, resp)
 
-        resp.text = u'{"Requests" : {"id" : "test_id"}}'
+        resp.text = '{"Requests" : {"id" : "test_id"}}'
         res = ambari_client.AmbariClient.req_id(resp)
         self.assertEqual(res, "test_id")
 

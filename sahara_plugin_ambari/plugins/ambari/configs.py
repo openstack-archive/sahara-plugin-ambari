@@ -15,7 +15,6 @@
 
 
 from oslo_serialization import jsonutils
-import six
 
 from sahara.plugins import provisioning
 from sahara.plugins import swift_helper
@@ -87,7 +86,7 @@ def get_service_to_configs_map():
     if SERVICES_TO_CONFIGS_MAP:
         return SERVICES_TO_CONFIGS_MAP
     data = {}
-    for (key, item) in six.iteritems(CFG_PROCESS_MAP):
+    for (key, item) in CFG_PROCESS_MAP.items():
         if item not in data:
             data[item] = []
         data[item].append(key)
@@ -140,7 +139,7 @@ def _get_service_name(service):
 def _get_config_group(group, param, plugin_version):
     if not CONFIGS or plugin_version not in CONFIGS:
         load_configs(plugin_version)
-    for section, process in six.iteritems(CFG_PROCESS_MAP):
+    for section, process in CFG_PROCESS_MAP.items():
         if process == group and param in CONFIGS[plugin_version][section]:
             return section
 
@@ -239,12 +238,12 @@ def _serialize_ambari_configs(configs):
 
 def _create_ambari_configs(sahara_configs, plugin_version):
     configs = {}
-    for service, params in six.iteritems(sahara_configs):
+    for service, params in sahara_configs.items():
         if service == "general" or service == "Kerberos":
             # General and Kerberos configs are designed for Sahara, not for
             # the plugin
             continue
-        for k, v in six.iteritems(params):
+        for k, v in params.items():
             group = _get_config_group(service, k, plugin_version)
             configs.setdefault(group, {})
             configs[group].update({k: v})
@@ -303,7 +302,7 @@ def get_cluster_params(cluster):
 def get_config_group(instance):
     params = get_instance_params_mapping(instance)
     groups = []
-    for (service, targets) in six.iteritems(get_service_to_configs_map()):
+    for (service, targets) in get_service_to_configs_map().items():
         current_group = {
             'cluster_name': instance.cluster.name,
             'group_name': "%s:%s" % (

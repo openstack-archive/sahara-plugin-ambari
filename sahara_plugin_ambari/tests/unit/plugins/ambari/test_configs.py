@@ -17,7 +17,6 @@
 import collections
 from unittest import mock
 
-import six
 
 from sahara_plugin_ambari.plugins.ambari import configs
 from sahara_plugin_ambari.tests.unit import base
@@ -77,9 +76,9 @@ class AmbariConfigsTestCase(base.SaharaTestCase):
             'Falcon': ['falcon-startup.properties',
                        'falcon-runtime.properties', 'falcon-env']
         }
-        for (key, item) in six.iteritems(configs_map):
+        for (key, item) in configs_map.items():
             item.sort()
-        for (key, item) in six.iteritems(configs_expected):
+        for (key, item) in configs_expected.items():
             item.sort()
         self.assertEqual(configs_map, configs_expected)
         self.assertIsNotNone(configs.SERVICES_TO_CONFIGS_MAP)
